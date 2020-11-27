@@ -1,0 +1,24 @@
+spring:
+  profiles:
+    active: dev
+  jmx:
+    enabled: false
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8 #日期序列化走北京时间
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+#server:
+#  port: 8080
+#  servlet:
+#    context-path: /demo
+#    session:
+#      cookie:
+#        http-only: true
+#        secure: true
+#      timeout: 30m
+#  tomcat: # 以下配置均为tomcat9.x的默认值
+#    max-threads: 200
+#    min-spare-threads: 10
+#    max-connections: 10000
+#    accept-count: 100

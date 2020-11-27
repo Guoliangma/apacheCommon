@@ -1,0 +1,12 @@
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    name: dataSource
+    url: jdbc:ArteryBase://localhost:5432/db_aty
+    username: test
+    password: ENCRYPT#QMi/uhoJ1tQ=
+    driver-class-name: com.thunisoft.ArteryBase.Driver
+    druid: 
+      test-while-idle: false
+
